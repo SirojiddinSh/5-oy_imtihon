@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Jomolhari", serif;
+}
+
+body {
+    background-color: black;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-div {
+    width: 484px;
+    height: 475px;
+    margin: 0 auto;
+    border-radius: 76px;
+    background-color: #f5c147;
+}
+
+.Login-div__img {
+    width: 188px;
+    height: 44px;
+    border-radius: 22px;
+    margin-top: 25px;
+    margin-left: 148px;
+}
+
+.Login-div__h2 {
+    width: 97px;
+    height: 42px;
+    margin: 0px;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    margin-left: 193px;
+    font-weight: 40;
+    font-size: 29px;
+    line-height: 41.64px;
+}
+
+.Login-div__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Login-div__input {
+    width: 358px;
+    height: 55px;
+    border-radius: 17px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+    border: 3px solid black;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.Login-div__p {
+    margin: 0px;
+    text-align: start;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 30px;
+}
+
+.Login-div__p span {
+    color: blue;
+}
+
+.Login-div__button {
+    width: 203px;
+    height: 62px;
+    border-radius: 23px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    cursor: pointer;
+}
+
+.Login-div__button:hover {
+    background-color: rgb(61, 59, 59);
+    transition: all 0.2s;
+}

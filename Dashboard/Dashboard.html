@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="./css/Dashboard.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <div class="Dashboard">
+            <h2>Dashboard</h2>
+            <div class="Dashboard__posts"></div>
+            <button>Create Post</button>
+            <h4>Sign Out?</h4>
+        </div>
+        <div class="create-new-post">
+            <div class="create-new-post-text">
+                <h2>Create New Post</h2>
+            </div>
+            <div class="create-post">
+                <form id="create-post-form">
+                    <input
+                        class="create-post__title"
+                        type="text"
+                        placeholder="Post title"
+                    />
+                    <input
+                        class="create-post__image"
+                        type="url"
+                        placeholder="image url"
+                    />
+                    <input
+                        class="create-post__tag"
+                        type="text"
+                        placeholder="Post tag"
+                    />
+                    <input
+                        class="create-post__author"
+                        type="text"
+                        placeholder="Author"
+                    />
+                    <input
+                        class="create-post__description"
+                        type="text"
+                        placeholder="Post description"
+                    />
+                    <button class="create-post__button">Create Post</button>
+                </form>
+            </div>
+        </div>
+        <script src="./js/Dashboard.js"></script>
+    </body>
+</html>
